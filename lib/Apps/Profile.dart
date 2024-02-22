@@ -109,8 +109,8 @@ class _ProfileSlideState extends State<ProfileSlide> {
               ),
             ),
             Container(
-              margin: EdgeInsets.fromLTRB(20, 0, 20, 0),
-              child: ListTile(
+              margin: const EdgeInsets.fromLTRB(20, 0, 20, 0),
+              child: const ListTile(
                 title: Text(
                   'Review',
                   style: TextStyle(color: Colors.white, fontSize: 20),
