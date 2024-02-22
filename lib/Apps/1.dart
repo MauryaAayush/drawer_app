@@ -32,7 +32,7 @@ class _GmailSliderState extends State<GmailSlider> {
                 Container(
                   margin: const EdgeInsets.fromLTRB(0, 30, 0, 10),
                   padding: const EdgeInsets.symmetric(horizontal: 20),
-                  child: Row(
+                  child: const Row(
                     children: [
                       Text(
                         "G",
@@ -51,12 +51,12 @@ class _GmailSliderState extends State<GmailSlider> {
                     ],
                   ),
                 ),
-                Divider(
+                const Divider(
                   color: Colors.grey,
                 ),
                 Container(
-                  padding: EdgeInsets.symmetric(horizontal: 10),
-                  child: ListTile(
+                  padding: const EdgeInsets.symmetric(horizontal: 10),
+                  child: const ListTile(
                     leading: Icon(
                       Icons.all_inbox,
                       color: Colors.white,
@@ -69,18 +69,18 @@ class _GmailSliderState extends State<GmailSlider> {
                     ),
                   ),
                 ),
-                Divider(
+                const Divider(
                   color: Colors.grey,
                 ),
                 Container(
                   width: 310,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                       color: Color(0xFF5A4645),
                       borderRadius: BorderRadius.only(
                           topRight: Radius.circular(30),
                           bottomRight: Radius.circular(30))),
-                  padding: EdgeInsets.symmetric(horizontal: 10),
-                  child: ListTile(
+                  padding: const EdgeInsets.symmetric(horizontal: 10),
+                  child: const ListTile(
                     leading: Icon(
                       Icons.inbox,
                       color: Colors.white,
