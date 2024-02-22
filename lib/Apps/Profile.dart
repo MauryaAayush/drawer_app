@@ -122,7 +122,7 @@ class _ProfileSlideState extends State<ProfileSlide> {
               ),
             ),
             Container(
-              margin: EdgeInsets.fromLTRB(20, 10, 20, 0),
+              margin: const EdgeInsets.fromLTRB(20, 10, 20, 0),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.all(Radius.circular(20))
               ),
