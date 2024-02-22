@@ -30,84 +30,129 @@ class _ProfileSlideState extends State<ProfileSlide> {
       // This is important for the transparency to work
       backgroundColor: Color(0xFF121315),
       drawer: Drawer(
-        backgroundColor:   Color(0xFFDBA2FA),
-        width: 350,
+        backgroundColor: Color(0xFFDBA2FA),
+        width: 300,
         child: ListView(
           children: [
-          DrawerHeader(
-            decoration: BoxDecoration(
-              gradient: LinearGradient(
-                begin: Alignment.topCenter,
-                end: Alignment.bottomCenter,
-                colors: [
-                  Color(0xFFDBA2FA),
-                  Color(0xFF5E5596FF),
-                ],
+            DrawerHeader(
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
+                  colors: [
+                    Color(0xFFDBA2FA),
+                    Color(0xFF5E5596FF),
+                  ],
+                ),
+              ),
+              child: Stack(children: [
+
+                // Positioned(
+                //   right : 10,
+                //     child: Icon(Icons.account_circle_outlined),
+                //
+                // ),
+                // Positioned(
+                //   right : 50,
+                //   child: CircleAvatar(
+                //     radius: 20,
+                //   ),
+                // ),
+
+                Positioned(
+                  left: 10,
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.blue,
+                        backgroundImage: AssetImage(
+                          'assets/images/me.jpg',
+                        ),
+
+                        radius: 43,
+                        // You can add an image or initials as well
+                      ),
+                      Text(
+                        'Aayush Maurya',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 18.3,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      Text(
+                        'maayush235@gmail.com',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 15,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ]),
+            ),
+            Container(
+              margin: EdgeInsets.all(20),
+              child: ListTile(
+                title: Text(
+                  'Notification',
+                  style: TextStyle(color: Colors.white, fontSize: 20),
+                ),
+                leading: Icon(
+                  Icons.notifications_none_outlined,
+                  color: Colors.white,
+                ),
               ),
             ),
-
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                CircleAvatar(
-                  backgroundColor: Colors.blue,
-                  backgroundImage: AssetImage('assets/images/me.jpg',),
-
-                  radius: 43,
-                  // You can add an image or initials as well
+            Container(
+              margin: EdgeInsets.fromLTRB(20, 0, 20, 0),
+              child: ListTile(
+                title: Text(
+                  'Review',
+                  style: TextStyle(color: Colors.white, fontSize: 20),
                 ),
-                Text(
-                  'Aayush Maurya',
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 18.3,
-                    fontWeight: FontWeight.bold,
-                  ),
+                leading: Icon(
+                  Icons.reviews_outlined,
+                  color: Colors.white,
                 ),
-                Text(
-                  'maayush235@gmail.com',
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 15,
-                    fontWeight: FontWeight.bold,
-                  ),
+              ),
+            ),
+            Container(
+              margin: EdgeInsets.fromLTRB(20, 10, 20, 0),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.all(Radius.circular(20))
+              ),
+              child: ListTile(
+                title: Text(
+                  'Payment',
+                  style: TextStyle(color: Colors.white, fontSize: 20),
                 ),
-              ],
-            ),
-          ),
-            ListTile(
-              title: Text('Notification',style: TextStyle(
-                color: Colors.white,
-                fontSize: 20
-              ),),
-            leading: Icon(Icons.notifications_none_outlined,color: Colors.white,),
-            ),
-            ListTile(
-              title: Text('Notification',style: TextStyle(
+                leading: Icon(
+                  Icons.payment_rounded,
                   color: Colors.white,
-                  fontSize: 20
-              ),),
-              leading: Icon(Icons.notifications_none_outlined,color: Colors.white,),
+                ),
+              ),
             ),
-            ListTile(
-              title: Text('Notification',style: TextStyle(
+            Container(
+              margin: EdgeInsets.fromLTRB(20, 10, 20, 0),
+              color: Color(0xFF5E5596FF),
+              child: ListTile(
+                title: Text(
+                  'Setting',
+                  style: TextStyle(color: Colors.white, fontSize: 20),
+                ),
+                leading: Icon(
+                  Icons.settings,
                   color: Colors.white,
-                  fontSize: 20
-              ),),
-              leading: Icon(Icons.notifications_none_outlined,color: Colors.white,),
-            ),
-            ListTile(
-              title: Text('Notification',style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 20
-              ),),
-              leading: Icon(Icons.notifications_none_outlined,color: Colors.white,),
+                ),
+              ),
             ),
           ],
-
         ),
-
       ),
       appBar: AppBar(
         backgroundColor: Color(0xFFDBA2FA), // Make the app bar transparent
