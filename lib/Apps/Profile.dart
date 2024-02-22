@@ -155,7 +155,7 @@ class _ProfileSlideState extends State<ProfileSlide> {
         ),
       ),
       appBar: AppBar(
-        backgroundColor: Color(0xFFDBA2FA), // Make the app bar transparent
+        backgroundColor: const Color(0xFFDBA2FA), // Make the app bar transparent
         title: const Text(
           'My profile',
           style: TextStyle(color: Colors.white),
