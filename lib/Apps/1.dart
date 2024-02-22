@@ -24,7 +24,7 @@ class _GmailSliderState extends State<GmailSlider> {
       child: Scaffold(
         drawer: Drawer(
           width: 320,
-          backgroundColor: Color(0xFF2E2F33),
+          backgroundColor: const Color(0xFF2E2F33),
           child: ListView(children: [
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
