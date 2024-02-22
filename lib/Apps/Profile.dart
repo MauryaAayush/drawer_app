@@ -41,7 +41,7 @@ class _ProfileSlideState extends State<ProfileSlide> {
                   end: Alignment.bottomCenter,
                   colors: [
                     Color(0xFFDBA2FA),
-                    Color(0xFF5E5596FF),
+                    Color(0xff5e5596ff),
                   ],
                 ),
               ),
