@@ -126,7 +126,7 @@ class _ProfileSlideState extends State<ProfileSlide> {
               decoration: const BoxDecoration(
                 borderRadius: BorderRadius.all(Radius.circular(20))
               ),
-              child: ListTile(
+              child: const ListTile(
                 title: Text(
                   'Payment',
                   style: TextStyle(color: Colors.white, fontSize: 20),
