@@ -139,7 +139,7 @@ class _ProfileSlideState extends State<ProfileSlide> {
             ),
             Container(
               margin: const EdgeInsets.fromLTRB(20, 10, 20, 0),
-              color: const Color(0xFF5E5596FF),
+              color: const Color(0xff5e5596ff),
               child: const ListTile(
                 title: Text(
                   'Setting',
