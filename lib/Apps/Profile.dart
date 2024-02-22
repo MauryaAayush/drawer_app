@@ -17,7 +17,7 @@ class _ProfileSlideState extends State<ProfileSlide> {
   void initState() {
     super.initState();
     // Make the status bar transparent
-    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+    SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
       statusBarColor: Colors.green,
       statusBarIconBrightness: Brightness.dark,
     ));
