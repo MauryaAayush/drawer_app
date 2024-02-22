@@ -156,15 +156,15 @@ class _ProfileSlideState extends State<ProfileSlide> {
       ),
       appBar: AppBar(
         backgroundColor: Color(0xFFDBA2FA), // Make the app bar transparent
-        title: Text(
+        title: const Text(
           'My profile',
           style: TextStyle(color: Colors.white),
         ),
         iconTheme: IconThemeData(color: Colors.white),
       ),
-      body: Center(
+      body: const Center(
         child: Text(
-          'Your content goes here',
+          'Hello every one',
           style: TextStyle(color: Colors.white),
         ),
       ),
@@ -174,7 +174,7 @@ class _ProfileSlideState extends State<ProfileSlide> {
   @override
   void dispose() {
     // Reset the status bar color when the widget is disposed
-    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+    SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
       statusBarColor: Colors.black,
       statusBarIconBrightness: Brightness.dark,
     ));
