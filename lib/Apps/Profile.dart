@@ -30,23 +30,11 @@ class _ProfileSlideState extends State<ProfileSlide> {
       // This is important for the transparency to work
       backgroundColor: Color(0xFF121315),
       drawer: Drawer(
-        backgroundColor: Color(0xFFDBA2FA),
+        backgroundColor:   Color(0xFFDBA2FA),
         width: 350,
         child: ListView(
           children: [
-          Container(
-          height: 200.0, // Set the height of the container
-          decoration: BoxDecoration(
-            gradient: LinearGradient(
-              begin: Alignment.topCenter,
-              end: Alignment.bottomCenter,
-              colors: [
-                Color(0xFFDBA2FA),
-                Color(0xFF5E5596FF),
-              ],
-            ),
-          ),
-          child: DrawerHeader(
+          DrawerHeader(
             decoration: BoxDecoration(
               gradient: LinearGradient(
                 begin: Alignment.topCenter,
@@ -88,7 +76,34 @@ class _ProfileSlideState extends State<ProfileSlide> {
               ],
             ),
           ),
-          ),
+            ListTile(
+              title: Text('Notification',style: TextStyle(
+                color: Colors.white,
+                fontSize: 20
+              ),),
+            leading: Icon(Icons.notifications_none_outlined,color: Colors.white,),
+            ),
+            ListTile(
+              title: Text('Notification',style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 20
+              ),),
+              leading: Icon(Icons.notifications_none_outlined,color: Colors.white,),
+            ),
+            ListTile(
+              title: Text('Notification',style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 20
+              ),),
+              leading: Icon(Icons.notifications_none_outlined,color: Colors.white,),
+            ),
+            ListTile(
+              title: Text('Notification',style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 20
+              ),),
+              leading: Icon(Icons.notifications_none_outlined,color: Colors.white,),
+            ),
           ],
 
         ),
