@@ -96,8 +96,8 @@ class _ProfileSlideState extends State<ProfileSlide> {
               ]),
             ),
             Container(
-              margin: EdgeInsets.all(20),
-              child: ListTile(
+              margin: const EdgeInsets.all(20),
+              child: const ListTile(
                 title: Text(
                   'Notification',
                   style: TextStyle(color: Colors.white, fontSize: 20),
