@@ -92,12 +92,12 @@ class _GmailSliderState extends State<GmailSlider> {
                     ),
                   ),
                 ),
-                Divider(
+                const Divider(
                   color: Colors.grey,
                 ),
                 Container(
-                  padding: EdgeInsets.symmetric(horizontal: 10),
-                  child: ListTile(
+                  padding: const EdgeInsets.symmetric(horizontal: 10),
+                  child: const ListTile(
                     leading: Icon(
                       Icons.star_border,
                       color: Colors.white,
@@ -110,8 +110,8 @@ class _GmailSliderState extends State<GmailSlider> {
                   ),
                 ),
                 Container(
-                  padding: EdgeInsets.symmetric(horizontal: 10),
-                  child: ListTile(
+                  padding: const EdgeInsets.symmetric(horizontal: 10),
+                  child: const ListTile(
                     leading: Icon(
                       Icons.snooze,
                       color: Colors.white,
@@ -124,8 +124,8 @@ class _GmailSliderState extends State<GmailSlider> {
                   ),
                 ),
                 Container(
-                  padding: EdgeInsets.symmetric(horizontal: 10),
-                  child: ListTile(
+                  padding: const EdgeInsets.symmetric(horizontal: 10),
+                  child: const ListTile(
                     leading: Icon(
                       Icons.label_important_outline,
                       color: Colors.white,
@@ -138,8 +138,8 @@ class _GmailSliderState extends State<GmailSlider> {
                   ),
                 ),
                 Container(
-                  padding: EdgeInsets.symmetric(horizontal: 10),
-                  child: ListTile(
+                  padding: const EdgeInsets.symmetric(horizontal: 10),
+                  child: const ListTile(
                     leading: Icon(
                       Icons.send_outlined,
                       color: Colors.white,
@@ -152,8 +152,8 @@ class _GmailSliderState extends State<GmailSlider> {
                   ),
                 ),
                 Container(
-                  padding: EdgeInsets.symmetric(horizontal: 10),
-                  child: ListTile(
+                  padding: const EdgeInsets.symmetric(horizontal: 10),
+                  child: const ListTile(
                     leading: Icon(
                       Icons.note_add_outlined,
                       color: Colors.white,
@@ -166,8 +166,8 @@ class _GmailSliderState extends State<GmailSlider> {
                   ),
                 ),
                 Container(
-                  padding: EdgeInsets.symmetric(horizontal: 10),
-                  child: ListTile(
+                  padding: const EdgeInsets.symmetric(horizontal: 10),
+                  child: const ListTile(
                     leading: Icon(
                       Icons.mail_outline,
                       color: Colors.white,
@@ -180,8 +180,8 @@ class _GmailSliderState extends State<GmailSlider> {
                   ),
                 ),
                 Container(
-                  padding: EdgeInsets.symmetric(horizontal: 10),
-                  child: ListTile(
+                  padding: const EdgeInsets.symmetric(horizontal: 10),
+                  child: const ListTile(
                     leading: Icon(
                       Icons.report_gmailerrorred,
                       color: Colors.white,
@@ -194,8 +194,8 @@ class _GmailSliderState extends State<GmailSlider> {
                   ),
                 ),
                 Container(
-                  padding: EdgeInsets.symmetric(horizontal: 10),
-                  child: ListTile(
+                  padding: const EdgeInsets.symmetric(horizontal: 10),
+                  child: const ListTile(
                     leading: Icon(
                       Icons.delete_sweep_outlined,
                       color: Colors.white,
@@ -208,13 +208,13 @@ class _GmailSliderState extends State<GmailSlider> {
                   ),
                 ),
 
-                Divider(
+                const Divider(
                   color: Colors.grey,
                 ),
 
                 Container(
-                  padding: EdgeInsets.symmetric(horizontal: 10),
-                  child: ListTile(
+                  padding: const EdgeInsets.symmetric(horizontal: 10),
+                  child: const ListTile(
                     leading: Icon(
                       Icons.add,
                       color: Colors.white,
@@ -227,13 +227,13 @@ class _GmailSliderState extends State<GmailSlider> {
                   ),
                 ),
 
-                Divider(
+                const Divider(
                   color: Colors.grey,
                 ),
 
                 Container(
-                  padding: EdgeInsets.symmetric(horizontal: 10),
-                  child: ListTile(
+                  padding: const EdgeInsets.symmetric(horizontal: 10),
+                  child: const ListTile(
                     leading: Icon(
                       Icons.settings,
                       color: Colors.white,
@@ -249,11 +249,11 @@ class _GmailSliderState extends State<GmailSlider> {
             ),
           ]),
         ),
-        backgroundColor: Color(0xFF121315),
+        backgroundColor: const Color(0xFF121315),
         appBar: AppBar(
-          iconTheme: IconThemeData(color: Colors.white),
-          backgroundColor: Color(0xFF0D0D0F),
-          title: Text(
+          iconTheme: const IconThemeData(color: Colors.white),
+          backgroundColor: const Color(0xFF0D0D0F),
+          title: const Text(
             'Gmail',
             style: TextStyle(color: Colors.white),
           ),
