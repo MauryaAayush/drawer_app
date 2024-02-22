@@ -24,14 +24,18 @@ class _GmailSliderState extends State<GmailSlider> {
         child: Scaffold(
           drawer: const Drawer(
             backgroundColor: Colors.grey,
-            child: ListTile(
-              leading: Icon(Icons.access_alarm),
-              title: Text('Alaram'),
-
+            child: DrawerHeader(
+              child: ListTile(
+                leading: Icon(Icons.access_alarm),
+                title: Text('Alaram'),
+              ),
             ),
           ),
             backgroundColor: Color(0xFF121315),
             appBar: AppBar(
+              iconTheme: IconThemeData(
+                color: Colors.white
+              ),
               backgroundColor: Color(0xFF0D0D0F),
               title: Text('Gmail',style: TextStyle(
                 color: Colors.white

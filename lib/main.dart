@@ -1,6 +1,8 @@
+import 'package:drawer_app/Apps/2.dart';
 import 'package:flutter/material.dart';
 
 import 'Apps/1.dart';
+import 'Apps/Profile.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,14 +22,15 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
 
-      initialRoute: '/',
+      initialRoute: '/second',
       routes: {
-        '/' : (context) =>  GmailSlider(),
-        '/second' : (context) =>  const Drawer(),
+        '/first' : (context) =>  const GmailSlider(),
+       '/second' :  (context) =>   const ProfileSlide(),
       },
 
     );
   }
 }
+
 
 
