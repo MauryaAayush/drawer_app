@@ -28,9 +28,9 @@ class _ProfileSlideState extends State<ProfileSlide> {
     return Scaffold(
       extendBodyBehindAppBar: true,
       // This is important for the transparency to work
-      backgroundColor: Color(0xFF121315),
+      backgroundColor: const Color(0xFF121315),
       drawer: Drawer(
-        backgroundColor: Color(0xFFDBA2FA),
+        backgroundColor: const Color(0xFFDBA2FA),
         width: 300,
         child: ListView(
           children: [
