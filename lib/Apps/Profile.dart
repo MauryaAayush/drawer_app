@@ -138,9 +138,9 @@ class _ProfileSlideState extends State<ProfileSlide> {
               ),
             ),
             Container(
-              margin: EdgeInsets.fromLTRB(20, 10, 20, 0),
-              color: Color(0xFF5E5596FF),
-              child: ListTile(
+              margin: const EdgeInsets.fromLTRB(20, 10, 20, 0),
+              color: const Color(0xFF5E5596FF),
+              child: const ListTile(
                 title: Text(
                   'Setting',
                   style: TextStyle(color: Colors.white, fontSize: 20),
