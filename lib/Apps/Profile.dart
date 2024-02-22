@@ -34,7 +34,7 @@ class _ProfileSlideState extends State<ProfileSlide> {
         width: 300,
         child: ListView(
           children: [
-            DrawerHeader(
+            const DrawerHeader(
               decoration: BoxDecoration(
                 gradient: LinearGradient(
                   begin: Alignment.topCenter,
