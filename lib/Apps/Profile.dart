@@ -160,7 +160,7 @@ class _ProfileSlideState extends State<ProfileSlide> {
           'My profile',
           style: TextStyle(color: Colors.white),
         ),
-        iconTheme: IconThemeData(color: Colors.white),
+        iconTheme: const IconThemeData(color: Colors.white),
       ),
       body: const Center(
         child: Text(
