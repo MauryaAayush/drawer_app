@@ -30,8 +30,8 @@ class _GmailSliderState extends State<GmailSlider> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Container(
-                  margin: EdgeInsets.fromLTRB(0, 30, 0, 10),
-                  padding: EdgeInsets.symmetric(horizontal: 20),
+                  margin: const EdgeInsets.fromLTRB(0, 30, 0, 10),
+                  padding: const EdgeInsets.symmetric(horizontal: 20),
                   child: Row(
                     children: [
                       Text(
