@@ -33,9 +33,9 @@ class _NewoneState extends State<Newone> {
               ),
             ),
 
-            SizedBox(height: 18,),
+            const SizedBox(height: 18,),
 
-            Text(
+            const Text(
               'Aayush Maurya',
               style: TextStyle(
                 color: Colors.white,
@@ -44,7 +44,7 @@ class _NewoneState extends State<Newone> {
               ),
             ),
 
-            Text(
+            const Text(
               'maayush235@gmail.com',
               style: TextStyle(
                 color: Colors.white,
