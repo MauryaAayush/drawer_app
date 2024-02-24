@@ -73,7 +73,7 @@ class _NewoneState extends State<Newone> {
               ),),
             ),
 
-            SizedBox(height: 10,),
+            const SizedBox(height: 10,),
             // OutlinedButton(
             //   child: Text("Sign ",),
             //     onPressed: () {},
@@ -89,7 +89,7 @@ class _NewoneState extends State<Newone> {
             // ),
             // Divider(color: Colors.white,height: 40,),
 
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
 
