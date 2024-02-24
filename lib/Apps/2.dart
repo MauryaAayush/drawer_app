@@ -158,18 +158,6 @@ class _NewoneState extends State<Newone> {
               ),),
             ),
 
-
-
-
-
-
-
-
-
-
-
-
-
             // ListView(
             //   children: [
             //     ListTile(
