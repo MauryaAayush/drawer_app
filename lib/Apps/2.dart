@@ -53,7 +53,7 @@ class _NewoneState extends State<Newone> {
               ),
             ),
 
-            SizedBox(height: 20,),
+            const SizedBox(height: 20,),
 
             Container(
               alignment: Alignment.center,
