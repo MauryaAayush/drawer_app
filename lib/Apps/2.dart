@@ -186,16 +186,16 @@ class _NewoneState extends State<Newone> {
       ),
       appBar: AppBar(
         backgroundColor: Colors.transparent,
-        iconTheme: IconThemeData(
+        iconTheme: const IconThemeData(
           color: Colors.white
         ),
-        title: Text('Transparent',style: TextStyle(
+        title: const Text('Transparent',style: TextStyle(
           color: Colors.white,
 
         ),),
         centerTitle: true,
       ),
-      body: Container(
+      body: SizedBox(
         width: double.infinity,
         height: double.infinity,
         child: Image.asset('assets/images/image.jpg',fit: BoxFit.cover,),
