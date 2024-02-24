@@ -24,8 +24,8 @@ class _NewoneState extends State<Newone> {
         color: Colors.transparent.withOpacity(0.5),
         child: Column(
           children: [
-            Padding(
-              padding: const EdgeInsets.fromLTRB(0, 30, 0, 0),
+            const Padding(
+              padding: EdgeInsets.fromLTRB(0, 30, 0, 0),
               child: CircleAvatar(
                 backgroundImage: AssetImage('assets/images/me.jpg',),
                 backgroundColor: Colors.blue,
