@@ -123,35 +123,35 @@ class _NewoneState extends State<Newone> {
                   color: Colors.white
               ),),
             ),
-            ListTile(
+            const ListTile(
               leading: Icon(Icons.home,color: Colors.white,size: 30,),
               title: Text('Home',style: TextStyle(
                   color: Colors.white
               ),),
             ),
 
-          Divider(color: Colors.white,height: 40,),
+          const Divider(color: Colors.white,height: 40,),
 
-            Padding(
+            const Padding(
               padding: EdgeInsets.fromLTRB(0, 0, 220, 10),
               child: Text('Communicate',style: TextStyle(
                 color: Colors.white,
               ),),
             ),
 
-            ListTile(
+            const ListTile(
               leading: Icon(Icons.lock,color: Colors.white,size: 30,),
               title: Text('Privacy Policy',style: TextStyle(
                   color: Colors.white
               ),),
             ),
-            ListTile(
+            const ListTile(
               leading: Icon(Icons.phone,color: Colors.white,size: 30,),
               title: Text('Contact Us',style: TextStyle(
                   color: Colors.white
               ),),
             ),
-            ListTile(
+            const ListTile(
               leading: Icon(Icons.memory_outlined,color: Colors.white,size: 30,),
               title: Text('About App',style: TextStyle(
                   color: Colors.white
