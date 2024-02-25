@@ -36,11 +36,9 @@ class _BlurState extends State<Blur> {
                     radius: 50,
                   ),
                 ),
-
                 const SizedBox(
                   height: 18,
                 ),
-
                 const Text(
                   'Aayush Maurya',
                   style: TextStyle(
@@ -49,7 +47,6 @@ class _BlurState extends State<Blur> {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-
                 const Text(
                   'maayush235@gmail.com',
                   style: TextStyle(
@@ -58,11 +55,9 @@ class _BlurState extends State<Blur> {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-
                 const SizedBox(
                   height: 20,
                 ),
-
                 Container(
                   alignment: Alignment.center,
                   height: 45,
@@ -79,30 +74,12 @@ class _BlurState extends State<Blur> {
                     style: TextStyle(color: Colors.white, fontSize: 18),
                   ),
                 ),
-
                 const SizedBox(
                   height: 10,
                 ),
-
-                // OutlinedButton(
-                //   child: Text("Sign ",),
-                //     onPressed: () {},
-                //   style: OutlinedButton.styleFrom(
-                //     minimumSize: Size(250, 50),
-                //     textStyle: TextStyle(
-                //     ),
-                //     side: BorderSide(
-                //       color: Colors.white,
-                //       width: 2,
-                //     )
-                //   ),
-                // ),
-                // Divider(color: Colors.white,height: 40,),
-
                 const SizedBox(
                   height: 20,
                 ),
-
                 const ListTile(
                   leading: Icon(
                     Icons.edit,
@@ -169,12 +146,10 @@ class _BlurState extends State<Blur> {
                     style: TextStyle(color: Colors.white),
                   ),
                 ),
-
                 const Divider(
                   color: Colors.white,
                   height: 40,
                 ),
-
                 const Padding(
                   padding: EdgeInsets.fromLTRB(0, 0, 220, 10),
                   child: Text(
@@ -184,7 +159,6 @@ class _BlurState extends State<Blur> {
                     ),
                   ),
                 ),
-
                 const ListTile(
                   leading: Icon(
                     Icons.lock,
@@ -218,17 +192,6 @@ class _BlurState extends State<Blur> {
                     style: TextStyle(color: Colors.white),
                   ),
                 ),
-
-                // ListView(
-                //   children: [
-                //     ListTile(
-                //       leading: Icon(Icons.edit,color: Colors.white,),
-                //       title: Text('Add leads',style: TextStyle(
-                //         color: Colors.white
-                //       ),),
-                //     )
-                //   ],
-                // )
               ],
             ),
           ),
@@ -256,5 +219,3 @@ class _BlurState extends State<Blur> {
     );
   }
 }
-
-// color: Colors.transparent.withOpacity(0.5),
