@@ -32,11 +32,9 @@ class _NewoneState extends State<Newone> {
                 radius: 50,
               ),
             ),
-
             const SizedBox(
               height: 18,
             ),
-
             const Text(
               'Aayush Maurya',
               style: TextStyle(
@@ -45,7 +43,6 @@ class _NewoneState extends State<Newone> {
                 fontWeight: FontWeight.bold,
               ),
             ),
-
             const Text(
               'maayush235@gmail.com',
               style: TextStyle(
@@ -54,11 +51,9 @@ class _NewoneState extends State<Newone> {
                 fontWeight: FontWeight.bold,
               ),
             ),
-
             const SizedBox(
               height: 20,
             ),
-
             Container(
               alignment: Alignment.center,
               height: 45,
@@ -75,7 +70,6 @@ class _NewoneState extends State<Newone> {
                 style: TextStyle(color: Colors.white, fontSize: 18),
               ),
             ),
-
             const SizedBox(
               height: 10,
             ),
