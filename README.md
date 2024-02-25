@@ -6,6 +6,13 @@ https://github.com/MauryaAayush/drawer_app/assets/143180849/9f400246-8514-43ed-9
 
 
 
+<br>
+This one is a blur
+<br>
+<img src = "https://github.com/MauryaAayush/drawer_app/assets/143180849/c986dca4-f672-4852-a96d-202b1925a855" height = 500px>
+
+
+
 <img src = "https://github.com/MauryaAayush/drawer_app/assets/143180849/ad1c030f-6631-4acd-9d2d-d80128e5a8d3" height = 500px>
 
 
