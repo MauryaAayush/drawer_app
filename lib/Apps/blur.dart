@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'dart:ui';
 
-void main()
-{
+void main() {
   runApp(const Blur());
 }
+
 class Blur extends StatefulWidget {
   const Blur({super.key});
 
@@ -20,7 +20,6 @@ class _BlurState extends State<Blur> {
       drawer: SizedBox(
         height: double.infinity,
         width: 350,
-
         child: BackdropFilter(
           filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
           child: Container(
@@ -257,6 +256,5 @@ class _BlurState extends State<Blur> {
     );
   }
 }
-
 
 // color: Colors.transparent.withOpacity(0.5),
