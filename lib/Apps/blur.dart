@@ -75,7 +75,7 @@ class _BlurState extends State<Blur> {
                         color: Colors.white,
                         width: 1.3,
                       )),
-                  child: Text(
+                  child: const Text(
                     'SIGN OUT',
                     style: TextStyle(color: Colors.white, fontSize: 18),
                   ),
