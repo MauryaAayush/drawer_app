@@ -2,6 +2,7 @@ import 'package:drawer_app/Apps/2.dart';
 import 'package:flutter/material.dart';
 import 'Apps/1.dart';
 import 'Apps/Profile.dart';
+import 'Apps/blur.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,11 +22,12 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
 
-      initialRoute: '/third',
+      initialRoute: '/four',
       routes: {
         '/first' : (context) =>  const GmailSlider(),
        '/second' :  (context) =>   const ProfileSlide(),
        '/third' :  (context) =>   const Newone(),
+       '/four' :  (context) =>   const Blur(),
       },
 
     );
