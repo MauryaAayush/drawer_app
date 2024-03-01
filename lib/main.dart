@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
 
-      initialRoute: '/first',
+      initialRoute: '/second',
       routes: {
         '/first' : (context) =>  const GmailSlider(),
        '/second' :  (context) =>   const ProfileSlide(),

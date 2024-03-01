@@ -55,6 +55,8 @@ class _GmailSliderState extends State<GmailSlider> {
                   color: Colors.grey,
                 ),
                 Container(
+                  width: 310,
+
                   padding: const EdgeInsets.symmetric(horizontal: 10),
                   child: const ListTile(
                     leading: Icon(
@@ -96,6 +98,7 @@ class _GmailSliderState extends State<GmailSlider> {
                   color: Colors.grey,
                 ),
                 Container(
+                  width: 310,
                   padding: const EdgeInsets.symmetric(horizontal: 10),
                   child: const ListTile(
                     leading: Icon(
@@ -110,6 +113,7 @@ class _GmailSliderState extends State<GmailSlider> {
                   ),
                 ),
                 Container(
+                  width: 310,
                   padding: const EdgeInsets.symmetric(horizontal: 10),
                   child: const ListTile(
                     leading: Icon(
@@ -124,6 +128,7 @@ class _GmailSliderState extends State<GmailSlider> {
                   ),
                 ),
                 Container(
+                  width: 310,
                   padding: const EdgeInsets.symmetric(horizontal: 10),
                   child: const ListTile(
                     leading: Icon(
@@ -138,6 +143,7 @@ class _GmailSliderState extends State<GmailSlider> {
                   ),
                 ),
                 Container(
+                  width: 310,
                   padding: const EdgeInsets.symmetric(horizontal: 10),
                   child: const ListTile(
                     leading: Icon(
@@ -152,6 +158,7 @@ class _GmailSliderState extends State<GmailSlider> {
                   ),
                 ),
                 Container(
+                  width: 310,
                   padding: const EdgeInsets.symmetric(horizontal: 10),
                   child: const ListTile(
                     leading: Icon(
@@ -166,6 +173,7 @@ class _GmailSliderState extends State<GmailSlider> {
                   ),
                 ),
                 Container(
+                  width: 310,
                   padding: const EdgeInsets.symmetric(horizontal: 10),
                   child: const ListTile(
                     leading: Icon(
@@ -180,6 +188,7 @@ class _GmailSliderState extends State<GmailSlider> {
                   ),
                 ),
                 Container(
+                  width: 310,
                   padding: const EdgeInsets.symmetric(horizontal: 10),
                   child: const ListTile(
                     leading: Icon(
@@ -194,6 +203,7 @@ class _GmailSliderState extends State<GmailSlider> {
                   ),
                 ),
                 Container(
+                  width: 310,
                   padding: const EdgeInsets.symmetric(horizontal: 10),
                   child: const ListTile(
                     leading: Icon(
@@ -213,6 +223,7 @@ class _GmailSliderState extends State<GmailSlider> {
                 ),
 
                 Container(
+                  width: 310,
                   padding: const EdgeInsets.symmetric(horizontal: 10),
                   child: const ListTile(
                     leading: Icon(
@@ -232,6 +243,7 @@ class _GmailSliderState extends State<GmailSlider> {
                 ),
 
                 Container(
+                  width: 310,
                   padding: const EdgeInsets.symmetric(horizontal: 10),
                   child: const ListTile(
                     leading: Icon(

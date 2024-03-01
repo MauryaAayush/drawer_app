@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 void main() {
+  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+    statusBarColor: Colors.yellow,
+  ));
   runApp(const ProfileSlide());
 }
 
@@ -14,14 +17,14 @@ class ProfileSlide extends StatefulWidget {
 
 class _ProfileSlideState extends State<ProfileSlide> {
   @override
-  void initState() {
-    super.initState();
-    // Make the status bar transparent
-    SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
-      statusBarColor: Colors.green,
-      statusBarIconBrightness: Brightness.dark,
-    ));
-  }
+  // void initState() {
+  //   super.initState();
+  //   // Make the status bar transparent
+  //   SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
+  //     statusBarColor: Colors.green,
+  //     statusBarIconBrightness: Brightness.dark,
+  //   ));
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -124,7 +127,7 @@ class _ProfileSlideState extends State<ProfileSlide> {
             Container(
               margin: const EdgeInsets.fromLTRB(20, 10, 20, 0),
               decoration: const BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.circular(20))
+                  borderRadius: BorderRadius.all(Radius.circular(20))
               ),
               child: const ListTile(
                 title: Text(
@@ -155,7 +158,7 @@ class _ProfileSlideState extends State<ProfileSlide> {
         ),
       ),
       appBar: AppBar(
-        backgroundColor: const Color(0xFFDBA2FA), // Make the app bar transparent
+        backgroundColor: Colors.red, // Make the app bar transparent
         title: const Text(
           'My profile',
           style: TextStyle(color: Colors.white),
@@ -171,13 +174,6 @@ class _ProfileSlideState extends State<ProfileSlide> {
     );
   }
 
-  @override
-  void dispose() {
-    // Reset the status bar color when the widget is disposed
-    SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
-      statusBarColor: Colors.black,
-      statusBarIconBrightness: Brightness.dark,
-    ));
-    super.dispose();
-  }
+
+// color: Color(0xFF5A4645),
 }
