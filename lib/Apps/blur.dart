@@ -216,6 +216,7 @@ class _BlurState extends State<Blur> {
           fit: BoxFit.cover,
         ),
       ),
+      
     );
   }
 }
